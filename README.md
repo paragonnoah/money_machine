@@ -1,0 +1,8 @@
+# money_machine
+To implement the money distribution algorithm in C language, the following steps can be followed:
+
+1. First, the user input for the amount to be withdrawn is taken.
+2. The input is checked to ensure that it is within the allowed range of 20 to 1,000 euros and in increments of 10 euros. If the input is not valid, an error message is displayed and the program terminates.
+3. If the input is valid, the program calculates the number of 50 euro bills to be given. This can be done using the modulus operator to find the remainder of the amount divided by 50.
+4. The program then calculates the number of 20 euro bills to be given using the same method.
+5. The program prints the number of 50 and 20 euro bills to be given to the user
